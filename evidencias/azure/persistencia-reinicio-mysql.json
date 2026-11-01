@@ -1,0 +1,20 @@
+{
+  "resultado": "APROBADO",
+  "servidor": "bemeloso-mv1",
+  "base_de_datos": "MySQL ESCUELA",
+  "registro": {
+    "edad": 20,
+    "id": 6,
+    "nombre": "Persistencia Azure 40dec8fd",
+    "promedio": 9.25
+  },
+  "consulta_mysql_antes_del_reinicio": "ID\tNOMBRE\tEDAD\tPROMEDIO\n6\tPersistencia Azure 40dec8fd\t20\t9.25\n",
+  "consulta_rest_despues_del_reinicio": {
+    "edad": 20,
+    "id": 6,
+    "nombre": "Persistencia Azure 40dec8fd",
+    "promedio": 9.25
+  },
+  "visible_en_jsp_despues_del_reinicio": true,
+  "limpieza_del_registro": true
+}

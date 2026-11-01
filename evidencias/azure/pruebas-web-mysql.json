@@ -1,0 +1,245 @@
+{
+  "resultado": "APROBADO",
+  "web": "http://127.0.0.1/Web",
+  "api": "http://127.0.0.1:9080/api",
+  "total": 53,
+  "comprobaciones": [
+    {
+      "pagina": "",
+      "estado": 200
+    },
+    {
+      "pagina": "Alumnos.jsp",
+      "estado": 200
+    },
+    {
+      "pagina": "Materias.jsp",
+      "estado": 200
+    },
+    {
+      "pagina": "Profesores.jsp",
+      "estado": 200
+    },
+    {
+      "pagina": "AlumnoMateria.jsp",
+      "estado": 200
+    },
+    {
+      "pagina": "ProfesorMateria.jsp",
+      "estado": 200
+    },
+    {
+      "pagina": "AlumnoServlet?accion=new",
+      "estado": 200
+    },
+    {
+      "catalogo": "Alumno",
+      "accion": "create",
+      "resultado": "guardado"
+    },
+    {
+      "pagina": "ProfesorServlet?accion=new",
+      "estado": 200
+    },
+    {
+      "catalogo": "Profesor",
+      "accion": "create",
+      "resultado": "guardado"
+    },
+    {
+      "pagina": "MateriaServlet?accion=new",
+      "estado": 200
+    },
+    {
+      "catalogo": "Materia",
+      "accion": "create",
+      "resultado": "guardado"
+    },
+    {
+      "pagina": "MateriaServlet?accion=new",
+      "estado": 200
+    },
+    {
+      "catalogo": "Materia",
+      "accion": "create",
+      "resultado": "guardado"
+    },
+    {
+      "pagina": "Alumnos.jsp",
+      "estado": 200
+    },
+    {
+      "pagina": "AlumnoMateriaServlet?accion=new",
+      "estado": 200
+    },
+    {
+      "catalogo": "AlumnoMateria",
+      "accion": "create",
+      "resultado": "guardado"
+    },
+    {
+      "pagina": "ProfesorMateriaServlet?accion=new",
+      "estado": 200
+    },
+    {
+      "catalogo": "ProfesorMateria",
+      "accion": "create",
+      "resultado": "guardado"
+    },
+    {
+      "pagina": "AlumnoServlet?accion=new",
+      "estado": 200
+    },
+    {
+      "catalogo": "Alumno",
+      "accion": "delete",
+      "resultado": "rechazado por integridad"
+    },
+    {
+      "pagina": "ProfesorServlet?accion=new",
+      "estado": 200
+    },
+    {
+      "catalogo": "Profesor",
+      "accion": "delete",
+      "resultado": "rechazado por integridad"
+    },
+    {
+      "pagina": "MateriaServlet?accion=new",
+      "estado": 200
+    },
+    {
+      "catalogo": "Materia",
+      "accion": "delete",
+      "resultado": "rechazado por integridad"
+    },
+    {
+      "pagina": "AlumnoServlet?accion=edit&id=5",
+      "estado": 200
+    },
+    {
+      "catalogo": "Alumno",
+      "accion": "update",
+      "resultado": "guardado"
+    },
+    {
+      "catalogo": "Alumno",
+      "accion": "consulta REST del cambio web",
+      "resultado": "persistido"
+    },
+    {
+      "pagina": "ProfesorServlet?accion=edit&id=6",
+      "estado": 200
+    },
+    {
+      "catalogo": "Profesor",
+      "accion": "update",
+      "resultado": "guardado"
+    },
+    {
+      "catalogo": "Profesor",
+      "accion": "consulta REST del cambio web",
+      "resultado": "persistido"
+    },
+    {
+      "pagina": "MateriaServlet?accion=edit&id=8",
+      "estado": 200
+    },
+    {
+      "catalogo": "Materia",
+      "accion": "update",
+      "resultado": "guardado"
+    },
+    {
+      "catalogo": "Materia",
+      "accion": "consulta REST del cambio web",
+      "resultado": "persistido"
+    },
+    {
+      "pagina": "AlumnoMateriaServlet?accion=edit&id=10",
+      "estado": 200
+    },
+    {
+      "catalogo": "AlumnoMateria",
+      "accion": "update",
+      "resultado": "guardado"
+    },
+    {
+      "catalogo": "AlumnoMateria",
+      "accion": "consulta REST del cambio web",
+      "resultado": "persistido"
+    },
+    {
+      "pagina": "ProfesorMateriaServlet?accion=edit&id=6-8",
+      "estado": 200
+    },
+    {
+      "catalogo": "ProfesorMateria",
+      "accion": "update",
+      "resultado": "guardado"
+    },
+    {
+      "catalogo": "ProfesorMateria",
+      "accion": "consulta REST del cambio web",
+      "resultado": "persistido"
+    },
+    {
+      "accion": "POST sin CSRF",
+      "estado": 403
+    },
+    {
+      "pagina": "ProfesorMateriaServlet?accion=new",
+      "estado": 200
+    },
+    {
+      "catalogo": "ProfesorMateria",
+      "accion": "delete",
+      "resultado": "guardado"
+    },
+    {
+      "pagina": "AlumnoMateriaServlet?accion=new",
+      "estado": 200
+    },
+    {
+      "catalogo": "AlumnoMateria",
+      "accion": "delete",
+      "resultado": "guardado"
+    },
+    {
+      "pagina": "MateriaServlet?accion=new",
+      "estado": 200
+    },
+    {
+      "catalogo": "Materia",
+      "accion": "delete",
+      "resultado": "guardado"
+    },
+    {
+      "pagina": "MateriaServlet?accion=new",
+      "estado": 200
+    },
+    {
+      "catalogo": "Materia",
+      "accion": "delete",
+      "resultado": "guardado"
+    },
+    {
+      "pagina": "ProfesorServlet?accion=new",
+      "estado": 200
+    },
+    {
+      "catalogo": "Profesor",
+      "accion": "delete",
+      "resultado": "guardado"
+    },
+    {
+      "pagina": "AlumnoServlet?accion=new",
+      "estado": 200
+    },
+    {
+      "catalogo": "Alumno",
+      "accion": "delete",
+      "resultado": "guardado"
+    }
+  ]
+}

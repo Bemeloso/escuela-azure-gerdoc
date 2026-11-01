@@ -1,0 +1,7 @@
+Código: bed42e1
+active
+active
+active
+active
+{"conexion":true,"database":"ESCUELA","status":"UP"}ALUMNOS
+3

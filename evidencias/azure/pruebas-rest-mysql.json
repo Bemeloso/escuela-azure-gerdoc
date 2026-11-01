@@ -1,0 +1,267 @@
+{
+  "resultado": "APROBADO",
+  "base_url": "http://127.0.0.1:9080/api",
+  "total": 52,
+  "comprobaciones": [
+    {
+      "metodo": "GET",
+      "ruta": "health",
+      "estado": 200
+    },
+    {
+      "metodo": "POST",
+      "ruta": "alumnos",
+      "estado": 201
+    },
+    {
+      "metodo": "POST",
+      "ruta": "profesores",
+      "estado": 201
+    },
+    {
+      "metodo": "POST",
+      "ruta": "materias",
+      "estado": 201
+    },
+    {
+      "metodo": "POST",
+      "ruta": "materias",
+      "estado": 201
+    },
+    {
+      "metodo": "POST",
+      "ruta": "alumno-materia",
+      "estado": 201
+    },
+    {
+      "metodo": "POST",
+      "ruta": "profesor-materia",
+      "estado": 201
+    },
+    {
+      "metodo": "GET",
+      "ruta": "alumnos",
+      "estado": 200
+    },
+    {
+      "metodo": "GET",
+      "ruta": "alumnos/4",
+      "estado": 200
+    },
+    {
+      "metodo": "DELETE",
+      "ruta": "alumnos/4",
+      "estado": 409
+    },
+    {
+      "metodo": "GET",
+      "ruta": "materias",
+      "estado": 200
+    },
+    {
+      "metodo": "GET",
+      "ruta": "materias/6",
+      "estado": 200
+    },
+    {
+      "metodo": "DELETE",
+      "ruta": "materias/6",
+      "estado": 409
+    },
+    {
+      "metodo": "GET",
+      "ruta": "profesores",
+      "estado": 200
+    },
+    {
+      "metodo": "GET",
+      "ruta": "profesores/5",
+      "estado": 200
+    },
+    {
+      "metodo": "DELETE",
+      "ruta": "profesores/5",
+      "estado": 409
+    },
+    {
+      "metodo": "GET",
+      "ruta": "alumno-materia",
+      "estado": 200
+    },
+    {
+      "metodo": "GET",
+      "ruta": "alumno-materia/8",
+      "estado": 200
+    },
+    {
+      "metodo": "GET",
+      "ruta": "profesor-materia",
+      "estado": 200
+    },
+    {
+      "metodo": "GET",
+      "ruta": "profesor-materia/5-6",
+      "estado": 200
+    },
+    {
+      "metodo": "POST",
+      "ruta": "alumno-materia",
+      "estado": 409
+    },
+    {
+      "metodo": "POST",
+      "ruta": "profesor-materia",
+      "estado": 409
+    },
+    {
+      "metodo": "POST",
+      "ruta": "alumno-materia",
+      "estado": 409
+    },
+    {
+      "metodo": "PUT",
+      "ruta": "alumnos/4",
+      "estado": 200
+    },
+    {
+      "metodo": "GET",
+      "ruta": "alumnos/4",
+      "estado": 200
+    },
+    {
+      "metodo": "PUT",
+      "ruta": "materias/6",
+      "estado": 200
+    },
+    {
+      "metodo": "GET",
+      "ruta": "materias/6",
+      "estado": 200
+    },
+    {
+      "metodo": "PUT",
+      "ruta": "profesores/5",
+      "estado": 200
+    },
+    {
+      "metodo": "GET",
+      "ruta": "profesores/5",
+      "estado": 200
+    },
+    {
+      "metodo": "PUT",
+      "ruta": "alumno-materia/8",
+      "estado": 200
+    },
+    {
+      "metodo": "GET",
+      "ruta": "alumno-materia/8",
+      "estado": 200
+    },
+    {
+      "metodo": "PUT",
+      "ruta": "profesor-materia/5-6",
+      "estado": 200
+    },
+    {
+      "metodo": "GET",
+      "ruta": "profesor-materia/5-7",
+      "estado": 200
+    },
+    {
+      "metodo": "POST",
+      "ruta": "alumnos",
+      "estado": 400
+    },
+    {
+      "metodo": "POST",
+      "ruta": "alumnos",
+      "estado": 400
+    },
+    {
+      "metodo": "POST",
+      "ruta": "alumnos",
+      "estado": 400
+    },
+    {
+      "metodo": "POST",
+      "ruta": "alumnos",
+      "estado": 400
+    },
+    {
+      "metodo": "POST",
+      "ruta": "alumnos",
+      "estado": 400
+    },
+    {
+      "metodo": "GET",
+      "ruta": "no-existe",
+      "estado": 404
+    },
+    {
+      "metodo": "GET",
+      "ruta": "alumnos/abc",
+      "estado": 400
+    },
+    {
+      "metodo": "DELETE",
+      "ruta": "profesor-materia/5-7",
+      "estado": 204
+    },
+    {
+      "metodo": "GET",
+      "ruta": "profesor-materia/5-7",
+      "estado": 404
+    },
+    {
+      "metodo": "DELETE",
+      "ruta": "alumno-materia/8",
+      "estado": 204
+    },
+    {
+      "metodo": "GET",
+      "ruta": "alumno-materia/8",
+      "estado": 404
+    },
+    {
+      "metodo": "DELETE",
+      "ruta": "materias/7",
+      "estado": 204
+    },
+    {
+      "metodo": "GET",
+      "ruta": "materias/7",
+      "estado": 404
+    },
+    {
+      "metodo": "DELETE",
+      "ruta": "materias/6",
+      "estado": 204
+    },
+    {
+      "metodo": "GET",
+      "ruta": "materias/6",
+      "estado": 404
+    },
+    {
+      "metodo": "DELETE",
+      "ruta": "profesores/5",
+      "estado": 204
+    },
+    {
+      "metodo": "GET",
+      "ruta": "profesores/5",
+      "estado": 404
+    },
+    {
+      "metodo": "DELETE",
+      "ruta": "alumnos/4",
+      "estado": 204
+    },
+    {
+      "metodo": "GET",
+      "ruta": "alumnos/4",
+      "estado": 404
+    }
+  ]
+}

@@ -95,3 +95,11 @@ Detén y desasigna la VM desde Azure al acabar de trabajar o grabar. El disco y 
 El perfil Maven `local-test` añade H2 exclusivamente para comprobar los proyectos en una base de pruebas aislada. Las pruebas locales con H2 no sustituyen las pruebas finales con MySQL en Azure. Compila sin ese perfil los artefactos de despliegue. Los informes deben identificar expresamente dónde y con qué motor se ejecutaron las pruebas.
 
 Las claves SSH, los archivos de credenciales y los artefactos `target/` están excluidos del repositorio.
+
+## Validación realizada en Azure: 1 de noviembre de 2026
+
+Se desplegaron ambos proyectos en Ubuntu Server 22.04.5 LTS, B2as v2 (2 vCPU y 8 GiB). MySQL 8.0.46, Java 17, Apache y Tomcat 9 se instalaron desde Ubuntu; Spring Boot corre como servicio.
+
+Pasaron 52 comprobaciones REST y 53 de formularios sobre MySQL ESCUELA. También se comprobó por SQL, REST y JSP la persistencia de un registro después de reiniciar Tomcat y Spring Boot. Los datos creados para las pruebas se limpiaron al terminar. Los resultados están en [evidencias/azure](evidencias/azure/).
+
+La aplicación está preparada para acceder, con la máquina encendida, a `http://158.23.58.178/Web/` y `http://158.23.58.178/swagger-ui.html`. La VM debe desasignarse cuando no se use. Estas evidencias no sustituyen el video de la actividad: la grabación sigue pendiente.
