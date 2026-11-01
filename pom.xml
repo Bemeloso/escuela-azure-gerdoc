@@ -1,0 +1,1 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"><modelVersion>4.0.0</modelVersion><groupId>com.gerdoc</groupId><artifactId>escuela-proyectos</artifactId><version>1.0</version><packaging>pom</packaging><modules><module>Escuela-SpringBoot</module><module>Web</module></modules></project>

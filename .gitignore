@@ -1,0 +1,8 @@
+**/target/
+.idea/
+*.iml
+*.pem
+*.key
+.env
+*.env
+acceso-azure/
